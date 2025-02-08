@@ -1,0 +1,7 @@
+{
+  "name": "glotonapp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
