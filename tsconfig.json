@@ -19,10 +19,10 @@
     "target": "es2022",
     "module": "es2020",
     "lib": [
-      "es2018", 
-      "dom"
-    ],
-    "useDefineForClassFields": false
+      "es2018", "dom"],
+    "useDefineForClassFields": false,
+    "strictPropertyInitialization": false, // Permite que las propiedades de una clase no se inicialicen en el constructor sin marcar error.
+    "strictNullChecks": false, // Permite asignar valores null o undefined a variables sin que TypeScript genere errores.
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
