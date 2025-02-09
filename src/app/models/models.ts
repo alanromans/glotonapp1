@@ -1,6 +1,6 @@
-import { ModelsFirestore } from 'src/models/firestore.models';
-import { ModelsAuth } from 'src/models/auth.models';
-import { ModelsFunctions } from 'src/models/functions.models';
+import { ModelsFirestore } from 'src/app/models/firestore.models';
+import { ModelsAuth } from 'src/app/models/auth.models';
+import { ModelsFunctions } from 'src/app/models/functions.models';
 
 export namespace Models {
 
