@@ -11,6 +11,22 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'login',
+    loadChildren: () => import('./auth/pages/login/login.module').then( m => m.LoginPageModule)
+  },
+  {
+    path: 'completar-registro',
+    loadChildren: () => import('./auth/pages/completar-registro/completar-registro.module').then( m => m.CompletarRegistroPageModule)
+  },
+  {
+    path: 'registro',
+    loadChildren: () => import('./auth/pages/registro/registro.module').then( m => m.RegistroPageModule)
+  },
+  {
+    path: 'perfil',
+    loadChildren: () => import('./auth/pages/perfil/perfil.module').then( m => m.PerfilPageModule)
+  },
 ];
 
 @NgModule({
